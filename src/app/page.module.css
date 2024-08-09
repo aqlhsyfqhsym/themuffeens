@@ -22,8 +22,12 @@
   mask-size: 80%;
 }
 
-.stickyMask video{
+.stickyMask Image{
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.imageSize{
+  object-fit: cover !important;
 }

@@ -41,6 +41,7 @@ export default function Home() {
                 fill
                 src={'/medias/images.png'}
                 alt="image"
+                className={styles.imageSize}
               />
         </div>
       </div>
