@@ -17,6 +17,7 @@
     transform-origin: top;
     .imageSize {
       border-radius: 25px;
+      object-fit: contain;
     }
     h2 {
       text-align: center;
@@ -67,5 +68,12 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .cardContainer {
+    height: 50vh;
+
   }
 }

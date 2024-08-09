@@ -1,5 +1,5 @@
 .main{
-  margin-bottom: 100vh;
+  margin-bottom: 80vh;
 }
 
 .container{
@@ -34,3 +34,10 @@
 
 
  
+
+@media screen and (max-width : 768px) {
+  .main{
+    margin-bottom: 50vh;
+  }
+  
+}
