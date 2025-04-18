@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Image with Background</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: url('assets/background.png') no-repeat center center;
+      background-size: cover;
+    }
+
+    img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <img src="assets/menu.png" alt="themuffeens menu" />
+</body>
+</html>
